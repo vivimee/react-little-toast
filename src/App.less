@@ -1,0 +1,40 @@
+.form-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px auto;
+    width: 80%;
+    .label {
+        flex-shrink: 0;
+        margin-right: 20px;
+        width: 30%;
+        text-align: right;
+    }
+    input {
+        flex-grow: 1;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #e7e7e7; 
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+}
+.submit-btn {
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f63;
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    outline: none;
+    display: block;
+    font-size: 16px;
+}
+
+@media (min-width: 375px) {
+    .page-content {
+        width: 375px;
+        margin: 0 auto;
+    }
+}
