@@ -1,11 +1,11 @@
 {
-  "main.js": "/static/js/main.bbb17312.chunk.js",
-  "main.js.map": "/static/js/main.bbb17312.chunk.js.map",
-  "static/js/1.41333e56.chunk.js": "/static/js/1.41333e56.chunk.js",
-  "static/js/1.41333e56.chunk.js.map": "/static/js/1.41333e56.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.42fc5a6037fe4debc0a078879fd1eb21.js": "/precache-manifest.42fc5a6037fe4debc0a078879fd1eb21.js",
-  "service-worker.js": "/service-worker.js"
+  "main.js": "/react-little-toast/static/js/main.f5795211.chunk.js",
+  "main.js.map": "/react-little-toast/static/js/main.f5795211.chunk.js.map",
+  "static/js/1.cff2f3f2.chunk.js": "/react-little-toast/static/js/1.cff2f3f2.chunk.js",
+  "static/js/1.cff2f3f2.chunk.js.map": "/react-little-toast/static/js/1.cff2f3f2.chunk.js.map",
+  "runtime~main.js": "/react-little-toast/static/js/runtime~main.a1210656.js",
+  "runtime~main.js.map": "/react-little-toast/static/js/runtime~main.a1210656.js.map",
+  "index.html": "/react-little-toast/index.html",
+  "precache-manifest.95f209aa8ebeff1a8b75e3898ab4808e.js": "/react-little-toast/precache-manifest.95f209aa8ebeff1a8b75e3898ab4808e.js",
+  "service-worker.js": "/react-little-toast/service-worker.js"
 }

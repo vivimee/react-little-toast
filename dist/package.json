@@ -1,8 +1,9 @@
 {
   "name": "react-little-toast",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "author": "",
   "main": "index.js",
+  "homepage": "https://vivimee.github.io/react-little-toast/",
   "types": "index.d.ts",
   "dependencies": {
     "fastclick": "^1.0.6",

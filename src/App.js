@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Toast from 'src/components/Toast';
+import Toast from 'src/components/index';
 import './App.less';
 
 class App extends Component {
