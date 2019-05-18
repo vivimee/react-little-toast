@@ -1,9 +1,10 @@
 {
   "name": "react-little-toast",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "author": "",
   "main": "dist",
+  "homepage": "https://vivimee.github.io/react-little-toast",
   "types": "dist/index.d.ts",
   "scripts": {
     "reload-img": "auto-require-files src/assets HBAssets",
