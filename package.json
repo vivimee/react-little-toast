@@ -1,10 +1,9 @@
 {
   "name": "react-little-toast",
-  "version": "0.0.5",
-  "private": true,
+  "version": "0.0.7",
+  "private": false,
   "author": "",
   "main": "dist",
-  "homepage": "https://vivimee.github.io/react-little-toast/",
   "types": "dist/index.d.ts",
   "scripts": {
     "reload-img": "auto-require-files src/assets HBAssets",
@@ -21,10 +20,11 @@
     "test-ci": "jest --ci",
     "test": "node scripts/test.js"
   },
+  "homepage": "https://vivimee.github.io/react-little-toast/",
   "dependencies": {
     "prop-types": "^15.6.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
   },
   "devDependencies": {
     "@babel/core": "7.1.0",
@@ -207,6 +207,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-name/react-little-toast.git"
+    "url": "https://github.com/vivimee/react-little-toast.git"
   }
 }
