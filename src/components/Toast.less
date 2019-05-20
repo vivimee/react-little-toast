@@ -1,7 +1,6 @@
 .rlt-toast-container {
     position: fixed;
     top: 10%;
-    width: 90%;
     left: 0;
     right: 0;
     margin: auto;
@@ -14,18 +13,21 @@
 .rlt-toast-item {
     margin-bottom: 10px;
     position: relative;
+    padding: 10px 16px;
     animation: toast-enter .2s ease forwards;
     &:last-child {
         margin-bottom: 0;
     }
+    &.fade {
+        animation-name: toast-fade;
+    }
     &.info {
-        padding: 8px 20px;
         color: #fff;
         background-color: rgba(0, 0, 0, .7);
         border-radius: 4px;
     }
-    &.fade {
-        animation-name: toast-fade;
+    &.success {
+
     }
 }
 

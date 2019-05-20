@@ -31,9 +31,9 @@ class InfoItem extends React.Component {
 
   render() {
     const { timeup, display } = this.state;
-    const { message } = this.props;
+    const { message, _type = 'info', className } = this.props;
     return display ? (
-      <div className={`rlt-toast-item info${timeup ? ' fade' : ''}`}>
+      <div className={`rlt-toast-item ${_type} ${timeup ? 'fade' : ''} ${className || ''}`}>
         {message}
       </div>
     ) : null;
@@ -53,9 +53,16 @@ class ToastContainer extends React.Component {
     this.setState({ messages: messages.concat([{ ...config, _type: 'info' }]) });
   };
 
+  pushSuccess = config => {
+    const { messages } = this.state;
+    this.setState({ messages: messages.concat([{ ...config, _type: 'success' }]) });
+  };
+
   messageMapper = (config, idx) => {
     if (config._type === 'info') {
       return <InfoItem key={idx} {...config} />;
+    } else if (config._type === 'success') {
+      return <InfoItem key={idx} {...config} />
     }
   };
 
@@ -87,6 +94,10 @@ class Toast {
 
   info = config => {
     this.toastContainer.pushInfo(config);
+  };
+
+  success = config => {
+    this.toastContainer.pushSuccess(config);
   };
 }
 
