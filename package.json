@@ -102,8 +102,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint-ci",
-      "pre-push": "yarn test-ci"
+      "pre-commit": "yarn lint-ci"
     }
   },
   "browserslist": [
