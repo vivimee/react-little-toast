@@ -14,13 +14,7 @@ class App extends Component {
   run = () => {
     const { message, timeout } = this.state;
     Toast.info({
-      message: (
-        <div style={{ textAlign: 'center' }}>
-          <p>a</p>
-          <p>bbb</p>
-          {message}
-        </div>
-      ),
+      message,
       timeout,
     });
   };
