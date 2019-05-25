@@ -4,10 +4,12 @@ import React from 'react';
 import ToastItemWrapper from '../ToastItemWrapper';
 import InfoItem from '../ToastItems/InfoItem';
 import SuccessItem from '../ToastItems/SuccessItem';
+import ErrorItem from '../ToastItems/ErrorItem';
 import './index.less';
 
 const WrappedInfoItem = ToastItemWrapper(InfoItem);
 const WrappedSuccessitem = ToastItemWrapper(SuccessItem);
+const WrappedErrorItem = ToastItemWrapper(ErrorItem);
 
 export default class ToastContainer extends React.Component {
     constructor() {
@@ -24,6 +26,8 @@ export default class ToastContainer extends React.Component {
   
     messageMapper = (config, idx) => {
       switch (config._type) {
+          case 'error':
+            return <WrappedErrorItem key={idx} {...config} />
           case 'success':
             return <WrappedSuccessitem key={idx} {...config} />
           case 'info':

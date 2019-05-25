@@ -24,6 +24,10 @@ class Toast {
     success = config => {
       this.toastContainer.pushToastItem({ ...config, _type: 'success' });
     };
+
+    error = config => {
+      this.toastContainer.pushToastItem({ ...config, _type: 'error' });
+    }
   }
   
   export default new Toast();
